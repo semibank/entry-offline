@@ -6,6 +6,8 @@
     "description": "Entry for offline",
     "main": "src/main_build/main.bundle.js",
     "scripts": {
+        "cake:install": "cake/cake_install",
+        "cake:start": "cake/cake_start",
         "start": "electron . --debug",
         "debug": "electron --inspect .",
         "webpack:dev": "cross-env NODE_ENV=development webpack",

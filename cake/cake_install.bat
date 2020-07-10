@@ -1,0 +1,2 @@
+git clone -b develop-cake git://github.com/semibank/entry-hw.git cake/entry-hw &&^
+git clone -b develop-cake git://github.com/semibank/entryjs.git cake/entry-js && cd cake/entry-js && npm install && cd ../../
